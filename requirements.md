@@ -23,7 +23,9 @@ FUN-3-RETURN-COMMAND - Upon the user entering command "3" on the prompt, the
 system shall ask the user the ID of the cat to return.  Upon the user entering
 an ID, if the cat with the ID is rented out, the cat shall be returned and the
 system shall welcome back the cat.  If the cat with the ID is not rented out,
-the sytem shall inform the user that the cat is already here.
+the system shall inform the user that the cat is already here. If the length of 
+the input is greater than the available cat ID options, the system shall print an
+"invalid input" message.
 
 FUN-4-RENAME-COMMAND - Upon the user entering command "4" on the prompt, the
 system shall ask the user the ID of the cat to rename, and subsequently the new
