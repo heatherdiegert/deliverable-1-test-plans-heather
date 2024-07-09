@@ -3,7 +3,9 @@ Requirements for Rent-A-Cat
 FUN-COMMAND-PROMPT - Upon launch, the system shall display a prompt showing 5 commands:
 1, 2, 3, 4, and 5.  The prompt shall accept one of the numerical commands.  If
 the user inputs a string other than those commands, a list of all five
-available commands and their respective functionalities shall be displayed.
+available commands and their respective functionalities shall be displayed. 
+If the user enters a non-numeric string, a message with "invalid input" shall
+be printed.
 
 FUN-1-LIST-COMMAND - Upon the user entering command "1" on the prompt, the
 system shall display all cats that are available (that is, not rented).
@@ -37,3 +39,4 @@ FUN-INVALID-CAT-ID - If the user, when prompted for a cat ID, enters a string
 that is not a valid cat ID (a number greater than or equal to 1 and less than
 or equal to 3), then the system shall respond with the string "Invalid cat
 ID.".
+
