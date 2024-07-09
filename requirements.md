@@ -30,7 +30,8 @@ system shall ask the user the ID of the cat to rename, and subsequently the new
 name for the cat.  If the cat with the ID is available, the system shall
 perform the name change and greet the cat with the new name.  If the cat with
 the ID is rented out, the system shall inform the user that the cat is not here
-and not perform the name change.
+and not perform the name change. An "invalid input" message shall be printed 
+if the user enters a non-numeric string.
 
 FUN-5-QUIT-COMMAND - Upon the user entering command "5" on the prompt, the
 system shall inform the user that it is closing up shop and then shut down.
